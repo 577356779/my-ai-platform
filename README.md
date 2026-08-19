@@ -92,6 +92,7 @@ This is a GitHub template, not a fork. Hit **Use this template**, swap the place
 
 ```sh
 /base-plugin:code-review
+/base-plugin:project-init    # 在业务项目根目录执行，初始化 CLAUDE.md
 ```
 
 `base-plugin@my-platform` = `<plugin-name>@<marketplace-name>`，marketplace 名来自 `.claude-plugin/marketplace.json` 的 `name` 字段。
