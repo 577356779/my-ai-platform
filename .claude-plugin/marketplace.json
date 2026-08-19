@@ -16,10 +16,10 @@
       "source": "./plugins/base-plugin",
       "version": "0.1.0",
       "keywords": [
-        "core",
+        "base",
+        "skills",
         "skill-creator",
-        "code-review",
-        "foundation"
+        "code-review"
       ]
     }
   ]
