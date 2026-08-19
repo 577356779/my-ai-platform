@@ -1,25 +1,25 @@
 {
-  "name": "my-marketplace",
+  "name": "my-platform",
   "owner": {
-    "name": "CHANGE_ME"
+    "name": "hsren"
   },
   "version": "1.0.0",
-  "description": "A starter Claude Code marketplace. Add your own plugins and ship them with automated versioning.",
+  "description": "hsren 的 Claude Code 插件市场",
   "author": {
-    "name": "CHANGE_ME",
-    "email": "CHANGE_ME@example.com"
+    "name": "hsren",
+    "email": "577356779@qq.com"
   },
   "plugins": [
     {
       "name": "base-plugin",
+      "description": "AI 编程底座：skill-creator + code review",
       "source": "./plugins/base-plugin",
-      "description": "Base plugin for your marketplace. Ships the skill-creator skill, plus a sample hook to replace with your own.",
       "version": "0.1.0",
       "keywords": [
-        "base",
-        "skills",
+        "core",
         "skill-creator",
-        "starter"
+        "code-review",
+        "foundation"
       ]
     }
   ]

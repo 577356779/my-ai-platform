@@ -1,15 +1,17 @@
 {
-	"name": "base-plugin",
-	"version": "0.1.0",
-	"description": "Base plugin for your marketplace. Ships the skill-creator skill, plus a sample hook to replace with your own.",
-	"author": {
-		"name": "CHANGE_ME",
-		"email": "CHANGE_ME@example.com"
-	},
-	"keywords": [
-		"base",
-		"skills",
-		"skill-creator",
-		"starter"
-	]
+  "name": "base-plugin",
+  "version": "0.1.0",
+  "description": "AI 编程底座：skill-creator + code review",
+  "author": {
+    "name": "hsren",
+    "email": "577356779@qq.com"
+  },
+  "skills": ["./skills/"],
+  "commands": ["./commands/"],
+  "keywords": [
+    "base",
+    "skills",
+    "skill-creator",
+    "code-review"
+  ]
 }

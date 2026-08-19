@@ -10,10 +10,10 @@
   <a href="https://github.com/Nagell/claude-marketplace">
     <img src="assets/logo.svg" alt="Logo" width="80" height="80">
   </a>
-  <h3 align="center">Claude Marketplace Template</h3>
+  <h3 align="center">my-ai-platform</h3>
 
   <p align="center">
-    A starter for your own Claude Code marketplace - one example plugin, automated versioning, and release CI wired up from the first push.
+    hsren 的 Claude Code 插件市场 — base-plugin（skill-creator + code-review）
     <br />
     <br />
     <a href="#getting-started"><strong>Get started »</strong></a>
@@ -81,14 +81,20 @@ This is a GitHub template, not a fork. Hit **Use this template**, swap the place
 2. Clone your new repo and open it.
 3. Work through the placeholders below, then start adding plugins.
 
-Once it's pushed and public, anyone (including you, on any machine) installs your plugins with:
+安装（Claude Code 内执行）：
 
 ```sh
-/plugin marketplace add CHANGE_ME_USERNAME/CHANGE_ME_REPO
-/plugin install base-plugin@my-marketplace
+/plugin marketplace add 577356779/my-ai-platform
+/plugin install base-plugin@my-platform
 ```
 
-`base-plugin@my-marketplace` is `<plugin-name>@<marketplace-name>` - the marketplace name comes from the `name` field in `.claude-plugin/marketplace.json`.
+常用命令：
+
+```sh
+/base-plugin:code-review
+```
+
+`base-plugin@my-platform` = `<plugin-name>@<marketplace-name>`，marketplace 名来自 `.claude-plugin/marketplace.json` 的 `name` 字段。
 
 ### 2. Placeholders to change
 
