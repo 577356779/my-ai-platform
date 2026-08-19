@@ -1,13 +1,17 @@
 {
   "name": "base-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "AI 编程底座：skill-creator + code review",
   "author": {
     "name": "hsren",
     "email": "577356779@qq.com"
   },
-  "skills": ["./skills/"],
-  "commands": ["./commands/"],
+  "skills": [
+    "./skills/"
+  ],
+  "commands": [
+    "./commands/"
+  ],
   "keywords": [
     "base",
     "skills",
