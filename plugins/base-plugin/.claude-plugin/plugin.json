@@ -1,7 +1,7 @@
 {
   "name": "base-plugin",
-  "version": "0.1.1",
-  "description": "AI 编程底座：skill-creator + code review + project init",
+  "version": "0.1.2",
+  "description": "AI 编程底座：skill-creator + code review + project init + SessionStart 上下文",
   "author": {
     "name": "hsren",
     "email": "577356779@qq.com"

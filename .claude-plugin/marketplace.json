@@ -14,7 +14,7 @@
       "name": "base-plugin",
       "description": "AI 编程底座：skill-creator + code review + project init",
       "source": "./plugins/base-plugin",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "keywords": [
         "core",
         "skill-creator",

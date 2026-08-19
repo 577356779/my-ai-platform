@@ -34,11 +34,11 @@
 | 字段 | 值 |
 |------|-----|
 | **当前阶段** | 阶段 1 |
-| **当前 Day** | **Day 8** |
-| **当前进行项** | SessionStart hook + PLUGIN.md |
-| **base-plugin 版本** | 0.1.1 |
+| **当前 Day** | **Day 9** |
+| **当前进行项** | reviewer agent + 更新 code-review 命令 |
+| **base-plugin 版本** | 0.1.2 |
 | **my-tools 版本** | — |
-| **已完成 Day** | 0.1–0.5（阶段 0 核心） |
+| **已完成 Day** | 0.1–0.5、8（阶段 0 差 0.6） |
 | **最后更新** | 2026-08-19 |
 | **阻塞** | GitHub DNS/443 不可用 → marketplace 用本地路径 |
 
@@ -47,7 +47,7 @@
 | 阶段 | Day 范围 | 对标 ECS | 状态 |
 |------|---------|---------|------|
 | 0 | 0.1–0.6 | 能装能用 + 狗食 | 🔄 差 0.6 |
-| 1 | 8–14 | `core/` hooks·rules·agents·registry | ⬜ |
+| 1 | 8–14 | `core/` hooks·rules·agents·registry | 🔄 Day 8 完成，Day 9 进行中 |
 | 2 | 15–19 | `packages/tools` | ⬜ |
 | 3 | 20–23 | `.ecs/project.json` + doctor | ⬜ |
 | 4 | 24–28 | `ecs-cli` 子集 | ⬜ |
@@ -61,7 +61,7 @@
 | Day | 标题 | 状态 |
 |-----|------|------|
 | 0.6 | dogfood-notes | [ ] |
-| 8 | SessionStart hook | [ ] |
+| 8 | SessionStart hook | [x] |
 | 9 | reviewer agent | [ ] |
 | 10 | rules | [ ] |
 | 11 | ecs-registry | [ ] |
