@@ -97,6 +97,10 @@ This is a GitHub template, not a fork. Hit **Use this template**, swap the place
 
 `base-plugin@my-platform` = `<plugin-name>@<marketplace-name>`，marketplace 名来自 `.claude-plugin/marketplace.json` 的 `name` 字段。
 
+## 对标 ECS 学习路线
+
+完整每日任务与进度跟踪见 **[docs/ECS-ROADMAP.md](./docs/ECS-ROADMAP.md)**（按天实施，完成后勾选并更新进度快照）。
+
 ### 2. Placeholders to change
 
 Search the repo for `CHANGE_ME` and replace each one. Here's where they live:
